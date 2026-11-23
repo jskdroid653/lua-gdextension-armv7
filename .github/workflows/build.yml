@@ -29,6 +29,9 @@ jobs:
           - platform: android
             arch: arm32
             packages: [g++-multilib]
+          - platform: android
+            arch: arm86_64
+            packages: [g++-multilib]
         exclude:
           - platform: linux
             arch: arm32
