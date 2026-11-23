@@ -27,9 +27,6 @@ jobs:
             arch: arm64
             runner: ubuntu-24.04-arm
           - platform: android
-            arch: x86_32
-            packages: [g++-multilib]
-          - platform: android
             arch: arm32
             packages: [g++-multilib]
         exclude:
