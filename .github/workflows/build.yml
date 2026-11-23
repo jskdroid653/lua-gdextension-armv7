@@ -30,7 +30,7 @@ jobs:
             arch: arm32
             packages: [g++-multilib]
           - platform: android
-            arch: arm86_32
+            arch: x86_32
             packages: [g++-multilib]
         exclude:
           - platform: linux
